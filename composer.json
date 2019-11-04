@@ -1,0 +1,40 @@
+{
+  "name": "mrkatz/laravel-helpers",
+  "description": "Collection Of Laravel Helpers",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adam Kaczocha",
+      "email": "adamkaczocha@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/mrkatz/laravel-helpers",
+  "keywords": [
+    "Laravel",
+    "Stubs",
+    "Generator"
+  ],
+  "minimum-stability": "dev",
+  "require": {
+  },
+  "require-dev": {
+      "orchestra/testbench": "^3.8|^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mrkatz\\LaravelHelpers\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mrkatz\\LaravelHelpers\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mrkatz\\LaravelHelpers\\LaravelHelpersServiceProvider"
+      ]
+    }
+  }
+}
