@@ -2,7 +2,7 @@
 
 namespace Mrkatz\LaravelHelpers;
 
-use StrMacros;
+use Mrkatz\LaravelHelpers\StrMacros;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 
